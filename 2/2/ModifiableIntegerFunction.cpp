@@ -14,7 +14,7 @@ static void setAllToOneCharArray(char character,char* arr, size_t size) {
 static void printMatrix(char* arr, size_t rows, size_t colls) {
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < colls; j++) {
-            std::cout << arr[i + j]<<',';
+            std::cout << arr[i*colls + j]<<',';
         }
         std::cout << std::endl;
     }
@@ -261,14 +261,7 @@ void ModifiableIntegerFunction::printGraph(int x, int y) const {
         graph[ARR_SIZE - (currentY - y)-1][i] = currentY+'0';
     }
 
+    printMatrix(graphP, ARR_SIZE, ARR_SIZE);
     
-    
-    for (int i = 0; i < ARR_SIZE; i++) {
-        for (int j = 0; j < ARR_SIZE; j++) {
-            std::cout<<graph[i][j]<<',';
-        }
-        std::cout << '\n';
-    }
-
 }
 
