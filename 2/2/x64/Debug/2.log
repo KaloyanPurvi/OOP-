@@ -1,0 +1,6 @@
+﻿  2.cpp
+  ModifiableIntegerFunction.cpp
+C:\Users\Kaloyan\Desktop\homework OOP 1\2\2\ModifiableIntegerFunction.cpp(121,14): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kaloyan\Desktop\homework OOP 1\2\2\ModifiableIntegerFunction.cpp(199,16): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+  Generating Code...
+  2.vcxproj -> C:\Users\Kaloyan\Desktop\homework OOP 1\2\x64\Debug\2.exe
