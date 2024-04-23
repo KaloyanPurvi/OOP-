@@ -38,5 +38,5 @@ public:
     bool readFromFile(std::ifstream& ifs);
     bool readFromFile(const char* fileName);
 
-    void printGraph(int x, int y)const;
+    void printGraph(int x, int y) const;
 };
