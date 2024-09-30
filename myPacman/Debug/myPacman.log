@@ -1,0 +1,5 @@
+﻿  myPacman.cpp
+C:\Users\Gamer\source\repos\myPacman\myPacman\myPacman.cpp(39,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Gamer\source\repos\myPacman\myPacman\myPacman.cpp(41,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Gamer\source\repos\myPacman\myPacman\myPacman.cpp(52,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  myPacman.vcxproj -> C:\Users\Gamer\source\repos\myPacman\Debug\myPacman.exe
