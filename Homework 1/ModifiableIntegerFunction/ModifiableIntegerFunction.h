@@ -3,9 +3,9 @@
 #include <fstream>
 
 class ModifiableIntegerFunction {
-    bool isNotValid[INT16_MAX + 1]{ 0 }; //we make them all valid
-    bool isSetOutcome[INT16_MAX + 1]{ 0 };
-    int16_t setOutcomes[INT16_MAX + 1];
+    bool isNotValid[UINT16_MAX + 1]{ 0 }; //we make them all valid
+    bool isSetOutcome[UINT16_MAX + 1]{ 0 };
+    int16_t setOutcomes[UINT16_MAX + 1];
     int16_t(*f)(int16_t) = [](int16_t x) -> int16_t { return x; };
 
 
